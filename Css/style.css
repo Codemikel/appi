@@ -1,0 +1,37 @@
+:root{
+    --principal-color:#006066;
+    --white-color: #f5f5f5;
+    --principal-font: 'Ruda', sans-serif;
+}
+
+header{
+    height: 100px;
+    background-color: var(--principal-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.menu{
+    height: 100%;
+}
+.menu__list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.menu__list--item a{
+    letter-spacing: 3px;
+    font-family: var(--principal-font);
+    text-decoration: none;
+    color: var(--white-color);
+}
+.menu__list--item-getapp a{
+    letter-spacing: 3px;
+    padding: 15px;
+    border-radius: 50px;
+    font-family: var(--principal-font);
+    background-color: var(--white-color);
+    color: var(--principal-color);
+    text-decoration: none;
+}
